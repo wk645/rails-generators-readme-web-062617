@@ -32,7 +32,7 @@ So when is the right time to use a generator? After we've gone over the actions 
 All of the Rails generators are entered as commands into the terminal and will follow this syntax:
 
 ```
-rails generate <name of generator> <options> --no-test-framework
+
 ```
 
 `--no-test-framework` is a flag that tells the generator not to create any tests for the newly-generated models, controllers, etc. When you're working on your own Rails applications, you don't need the flag — it's quite helpful for quickly stubbing out a test suite. However, it's necessary for Learn.co labs because we don't want Rails adding additional tests on top of the test suite that already comes with the lesson.
